@@ -2,26 +2,26 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Navigation() {
-    return <div className="flex gap-8 items-center justify-items-center p-8 sm:p-14" style={{backgroundColor: '#00838F'}}>
+    return <header className="flex flex-row flex-wrap gap-24 items-center justify-items-center p-8 sm:p-18 sm:items-start" style={{backgroundColor: '#00838F'}}>
 
         <Image 
         className="dark:invert rounded-full border border-solid border-transparent" 
         src="/icon.jpg" 
         alt="icon logo" 
-        width={80} 
-        height={80} 
+        width={40} 
+        height={40} 
         priority/>
 
-        <Link href="/" className="text-white-400"> 
+        <Link href="/" className="text-white text-2xl"> 
         Home</Link>
         
-        <Link href="/page1" className="text-white-400">
+        <Link href="/page1" className="text-white text-2xl">
         Page 1
         </Link>
 
-        <Link href="/page3" className="text-white-400">
+        <Link href="/page3" className="text-white text-2xl">
         Page 2
         </Link>
         
-    </div>;
+    </header>;
 }
