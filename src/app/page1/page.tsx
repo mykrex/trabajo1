@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Navigation from "../components/Navigation";
 
-export default function Page2(){
-    return <div className="grid grid-rows-[20px_1fr_20px] items-center justify-intems-center min-h-screen py-10">
+export default function Page1(){
+    return (
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-intems-center min-h-screen py-10">
         <Navigation/>
 
         <main className="flex flex-col gap-6 row-start-2 items-center justify-items-center py-16">
@@ -57,4 +58,5 @@ export default function Page2(){
             </div>
         </main>
     </div>
+    );
 }

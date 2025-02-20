@@ -19,7 +19,7 @@ export default function Navigation() {
         Page 1
         </Link>
 
-        <Link href="/page3" className="text-white text-2xl">
+        <Link href="/page2" className="text-white text-2xl">
         Page 2
         </Link>
         
