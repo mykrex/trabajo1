@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Navigation() {
-    return <header className="flex flex-row flex-wrap gap-24 items-center justify-items-center p-8 sm:p-18 sm:items-start" style={{backgroundColor: '#00838F'}}>
+    return <header className="flex flex-row flex-wrap gap-24 items-center justify-items-stretch p-8 sm:p-18 sm:items-start" style={{backgroundColor: '#00838F'}}>
 
         <Image 
         className="dark:invert rounded-full border border-solid border-transparent" 
